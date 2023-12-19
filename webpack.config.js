@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
     mode: 'production',
-    entry: './src/main.js',
+    entry: './src/index.ts',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
@@ -17,13 +17,37 @@ module.exports = {
     ],
     module: {
         rules: [
+            // {
+            //     test: /\.qs/,
+            //     use: 'raw-loader',
+            //     exclude: '/node_modules/'
+            // },
+            {
+                test: /\.qs$/,
+                use: './utils/qsParser.js',
+                exclude: '/node_modules/'
+            },
+            {
+                test: /\.ls$/,
+                use: './utils/listParser.js',
+                exclude: '/node_modules/'
+            },
+            {
+                test: /\.ts$/,
+                use: 'ts-loader',
+                exclude: '/node_modules/'
+            },
             {
                 test: /\.css$/,
                 use: [
                     'style-loader',
                     'css-loader'
-                ]
+                ],
+                exclude: '/node_modules/'
             }
         ]
+    },
+    resolve: {
+        extensions: ['.ts']
     }
 }
