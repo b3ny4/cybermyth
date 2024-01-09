@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'production',
@@ -17,11 +18,6 @@ module.exports = {
     ],
     module: {
         rules: [
-            // {
-            //     test: /\.qs/,
-            //     use: 'raw-loader',
-            //     exclude: '/node_modules/'
-            // },
             {
                 test: /\.qs$/,
                 use: './utils/qsParser.js',
@@ -31,6 +27,15 @@ module.exports = {
                 test: /\.ls$/,
                 use: './utils/listParser.js',
                 exclude: '/node_modules/'
+            },
+            {
+                //test: /\.(png|jpe?g|gif)$/i,
+                test: /\.png$/i,
+                type: 'asset/resource',
+                generator: {
+                    filename: 'images/[name][ext]'
+                }
+                //loader: 'file-loader',
             },
             {
                 test: /\.ts$/,

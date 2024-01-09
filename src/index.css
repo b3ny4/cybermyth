@@ -1,0 +1,79 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: 00008b;
+    text-shadow: 0 0 7px white;
+    padding-bottom: 40px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.score {
+    font-size: 20px;
+    font-weight: 700;
+    color: 00008b;
+    text-shadow: 0 0 3px white;
+}
+
+.question {
+    font-size: 25px;
+    font-weight: 700;
+    color: 00008b;
+    text-shadow: 0 0 3px white;
+}
+
+#feedback {
+    background:white;
+    margin-top: 10px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.bg-glass {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+body {
+    background: url('./images/background.png');
+    background-size: cover;
+}
+
+.btn:disabled {
+    opacity: 0.9;
+}
+
+#game {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rank img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid gray;
+    border-radius: 100%;
+}
+
+#rank h2 {
+    text-align: center;
+}
