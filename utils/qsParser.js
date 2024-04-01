@@ -30,6 +30,11 @@ function addExplanation(question, line) {
     return question;
 }
 
+function addSource(question, line) {
+    question.source = line.trim().substring(1).trim();
+    return question;
+}
+
 function addAnswer(question, line, lineNr) {
     if (line.endsWith("*")) [question, line] = makeCorrect(question, line, lineNr);
     const answer = line.slice(1,-1).trim();
@@ -42,6 +47,7 @@ function interpreteLine(data, question, line, lineNr) {
     if(!line) return [data, question];                           // ignore empty lines
     if (line.startsWith("# ")) [data, question] =  newQuestion(data, question, line, lineNr);
     else if (line.trim().startsWith("-")) question = addExplanation(question, line);
+    else if (line.trim().startsWith("+")) question = addSource(question, line);
     else if (/\[.*(?:\]|]\*)$/.test(line)) question =  addAnswer(question, line, lineNr);
     else throw new Error(`qsParser: Syntax error in line ${lineNr}!`);
     return [data, question];

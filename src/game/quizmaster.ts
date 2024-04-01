@@ -61,7 +61,10 @@ class QuizMaster {
         for(const button of this.display.getElementsByTagName("button")) {
             button.disabled = true;
         }
-        this.feedbackdisplay.innerText = this.question.explanation;
+        this.feedbackdisplay.innerHTML = this.question.explanation;
+        if(this.question.source) {
+            this.feedbackdisplay.innerHTML += `\n<a href="https://${this.question.source}" target="blank">read more...</a>`
+        }
         this.feedbackdisplay.style.visibility = "visible";
         setTimeout(() => {
             this.run();

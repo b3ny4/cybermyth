@@ -10,6 +10,7 @@ type Question = {
     correct: number,
     answers: string[],
     explanation: string,
+    source?: string,
 }
 
 declare module '*.ls' {
