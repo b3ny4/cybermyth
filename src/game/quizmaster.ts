@@ -39,6 +39,7 @@ class QuizMaster {
     private rankdisplay: HTMLElement;
     private feedbackdisplay: HTMLElement;
     private score: Score;
+    private question: Question;
 
     constructor(questions: Question[], display: HTMLElement, scoredisplay: HTMLElement, rankdisplay: HTMLElement, feedbackdisplay: HTMLElement) {
         this.questions = Array.from(questions)
@@ -60,10 +61,11 @@ class QuizMaster {
         for(const button of this.display.getElementsByTagName("button")) {
             button.disabled = true;
         }
+        this.feedbackdisplay.innerText = this.question.explanation;
         this.feedbackdisplay.style.visibility = "visible";
         setTimeout(() => {
             this.run();
-        }, 5*1000);
+        }, 1000);
     }
 
     private getCorrect() {
@@ -91,6 +93,7 @@ class QuizMaster {
     }
 
     private render(question: Question) {
+        console.log(question);
         let gameOver = false;
         if (!question) {
             question = {
@@ -125,13 +128,13 @@ class QuizMaster {
         ranklabel.innerText = rankTitle[rank];
         this.rankdisplay.appendChild(ranklabel);
 
-        this.feedbackdisplay.innerText = question.explanation;
-        this.feedbackdisplay.style.visibility = "hidden";
+        //this.feedbackdisplay.innerText = question.explanation;
+        //this.feedbackdisplay.style.visibility = "hidden";
     }
 
     public run() {
-        const question = this.questions.pop();
-        this.render(question);
+        this.question = this.questions.pop();
+        this.render(this.question);
     }
 }
 

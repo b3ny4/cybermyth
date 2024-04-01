@@ -1,47 +1,34 @@
-# Was solltest du tun, wenn du eine E-Mail von einem unbekannten Absender bekommst?
-[Öffne die E-Mail und antworte]
-[Klicke auf alle Links in der E-Mail]
-[Informiere einen Erwachsenen und öffne sie nicht]*
-[Leite die E-Mail an deine Freunde weiter]
-- E-Mails von Unbekannten können gefährlich sein. Es ist sicherer, einen Erwachsenen zu informieren.
+# was bedeutet HTTP im Vergleich zu HTTPS?
+[HTTP Seiten können Viren enthalten]
+[Ich kann HTTPS Seiten vertrauen]
+[HTTP lässt jeden meine Daten mitlesen]*
+[HTTP sind Phishing Seiten]
+- Das S steht für die Verschlüsselung deiner Daten auf dem Weg zum Server. Dritte können daher keine Daten mitlesen.
 
-# Ist es sicher, dein Passwort mit deinem besten Freund zu teilen?
-[Nein, Passwörter sollten immer geheim bleiben]*
-[Ja, wenn du ihm vertraust]
-[Ja, aber nur für Spiele]
-[Nur wenn er verspricht, es nicht weiterzusagen]
-- Passwörter sind persönlich und sollten niemals geteilt werden, um deine Online-Sicherheit zu gewährleisten.
+# Whatsapp Nachrichten kann nur ich und mein Chatpartner lesen
+[Nein, die Nachrichten werden gespeichert und können von Whatsapp mitgelesen werden]
+[Ja, die Nachrichten sind Ende zu Ende verschüsselt]
+[Ja, wenn es kein Backup gibt]*
+[Nein, Chats sind allgemein unsicher]
+- Whatsapp ist Ende-zu-Ende verschlüsselt, kann die Nachrichten also nicht abfange. Sie machen aber Backups und können diese Lesen. Smartphones machen auch regelmäßig Backups und speichern damit auch Nachrichten unverschlüsselt auf den Servern. Google und Apple können also gegebenenfalls auch mitlesen.
 
-# Was ist ein starkes Passwort?
-[Dein Name und dein Geburtsdatum]
-[Eine Mischung aus Buchstaben, Zahlen und Sonderzeichen]*
-[Das Wort "Passwort"]
-[Dein Lieblingstier]
-- Starke Passwörter, die eine Kombination aus verschiedenen Zeichen sind, sind schwerer zu erraten.
+# Was ist ein "Cookie" im Internet?
+[Ein Programm, das Spyware enthält]
+[Ein Werkzeug, das Websites verwendet, um Benutzer zu identifizieren]*
+[Ein Passwort, das der Browser speichert]
+[Ein Virus, der von Websites stammt]
+- Cookies sind kleine Datenpakete, die von Websites genutzt werden, um Benutzer zu identifizieren. Sie sind wichtig um Logins bereit zu stellen, können dich aber überall im Internet identifizieren und somit dein Surfverhalten tracken.
 
-# Warum solltest du nicht zu viele persönliche Informationen online teilen?
-[Weil das Internet sie nicht mag]
-[Weil es zu viel Zeit kostet]
-[Weil es gefährlich sein kann und deine Privatsphäre gefährdet]*
-[Weil deine Freunde eifersüchtig werden könnten]
+# Warum sollte man öffentliches WLAN mit Vorsicht nutzen?
+[Weil es immer langsam ist]
+[Es kostet immer Geld]
+[Es kann ein Risiko für die Datensicherheit darstellen]*
+[Weil es nicht überall verfügbar ist]
+- Öffentliche WLAN-Netzwerke sind oft nicht sicher und können leicht von Hackern genutzt werden, um auf die Daten der Nutzer zuzugreifen.
 
-# Was solltest du tun, wenn du in einem Online-Spiel nach deiner Adresse gefragt wirst?
-[Sag nein und informiere einen Erwachsenen]*
-[Gib eine falsche Adresse an]
-[Antworte nur, wenn du das Spiel gewinnen willst]
-[Frage den anderen Spieler nach seiner Adresse]
-- Deine Adresse ist persönliche Information und sollte niemals online geteilt werden.
-
-# Ist es sicher, dasselbe Passwort für alle deine Konten zu verwenden?
-[Ja, das macht das Merken einfacher]
-[Nur wenn es ein sehr starkes Passwort ist]
-[Nein, du solltest für jedes Konto ein anderes Passwort verwenden]*
-[Ja, aber nur für Spielekonten]
-- Verschiedene Passwörter für verschiedene Konten erhöhen deine Sicherheit im Falle eines Datenlecks.
-
-# Was ist ein sicheres Verhalten im Internet?
-[Alle Freundschaftsanfragen annehmen]
-[Deine persönlichen Informationen auf deinem Profil veröffentlichen]
-[Alles glauben, was du online liest]
-[Kritisch denken und Vorsicht walten lassen, wenn du online bist]*
-- Kritisches Denken und Vorsicht können dich vor vielen Online-Gefahren schützen.
+# Warum ist es wichtig, Software regelmäßig zu aktualisieren?
+[Damit sie besser aussieht]
+[Um neue Funktionen hinzuzufügen]
+[Um Sicherheitslücken zu beheben und den Schutz zu verbessern]*
+[Um Werbung zu entfernen]
+- Software-Updates enthalten oft wichtige Sicherheitsverbesserungen, die helfen, bekannte Sicherheitslücken zu schließen und das System vor neuen Bedrohungen zu schützen.
