@@ -71,8 +71,9 @@ class QuizMaster {
         }
         this.display.appendChild(next);
 
-        this.feedbackdisplay.innerHTML = `<h6 class="text-${correct?'success':'danger'}">${correct?'Richtig!':'Nicht ganz!'}</h6>`
+        this.feedbackdisplay.innerHTML = `<h6 class="text-${correct?'success':'danger'}">${correct?'🥳 Richtig!':'🧐 Nicht ganz!'}</h6>`
         if (this.question.explanation) {
+            this.feedbackdisplay.innerHTML += `<h5>${correct?'Erzähl mir mehr!':'Hä warum?'}</h5>`
             this.feedbackdisplay.innerHTML += this.question.explanation;
         }
         if(this.question.source) {
