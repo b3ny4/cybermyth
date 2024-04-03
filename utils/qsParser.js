@@ -43,7 +43,7 @@ function addAnswer(question, line, lineNr) {
 }
 
 function interpreteLine(data, question, line, lineNr) {
-    line = line.split('//')[0].trim();          // remove comments
+    line = line.trim();
     if(!line) return [data, question];                           // ignore empty lines
     if (line.startsWith("# ")) [data, question] =  newQuestion(data, question, line, lineNr);
     else if (line.trim().startsWith("-")) question = addExplanation(question, line);

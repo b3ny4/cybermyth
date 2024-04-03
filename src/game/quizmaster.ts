@@ -61,14 +61,27 @@ class QuizMaster {
         for(const button of this.display.getElementsByTagName("button")) {
             button.disabled = true;
         }
-        this.feedbackdisplay.innerHTML = this.question.explanation;
+
+        const next: HTMLButtonElement = document.createElement("button");
+        next.type = "button";
+        next.classList.add("btn", "btn-primary", "w-100", "my-1", "mt-3");
+        next.innerText = "Weiter >";
+        next.onclick = () => {
+            this.run();
+        }
+        this.display.appendChild(next);
+
+        this.feedbackdisplay.innerHTML = `<h6 class="text-${correct?'success':'danger'}">${correct?'Richtig!':'Nicht ganz!'}</h6>`
+        if (this.question.explanation) {
+            this.feedbackdisplay.innerHTML += this.question.explanation;
+        }
         if(this.question.source) {
             this.feedbackdisplay.innerHTML += `\n<a href="https://${this.question.source}" target="blank">read more...</a>`
         }
-        this.feedbackdisplay.style.visibility = "visible";
-        setTimeout(() => {
-            this.run();
-        }, 1000);
+        this.feedbackdisplay.style.display = 'block';
+        // setTimeout(() => {
+        //     this.run();
+        // }, 3000);
     }
 
     private getCorrect() {
@@ -130,13 +143,11 @@ class QuizMaster {
         const ranklabel = document.createElement("h2");
         ranklabel.innerText = rankTitle[rank];
         this.rankdisplay.appendChild(ranklabel);
-
-        //this.feedbackdisplay.innerText = question.explanation;
-        //this.feedbackdisplay.style.visibility = "hidden";
     }
 
     public run() {
         this.question = this.questions.pop();
+        this.feedbackdisplay.style.display = 'none';
         this.render(this.question);
     }
 }

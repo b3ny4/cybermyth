@@ -11,7 +11,7 @@
 [Ja, die Nachrichten sind Ende zu Ende verschüsselt]
 [Ja, wenn es kein Backup gibt]*
 [Nein, Chats sind allgemein unsicher]
-- Whatsapp ist Ende-zu-Ende verschlüsselt, kann die Nachrichten also nicht abfange. Sie machen aber Backups und können diese Lesen. Smartphones machen auch regelmäßig Backups und speichern damit auch Nachrichten unverschlüsselt auf den Servern. Google und Apple können also gegebenenfalls auch mitlesen.
+- Whatsapp ist <a target="blank" href="https://faq.whatsapp.com/820124435853543/?locale=de_DE">Ende-zu-Ende verschlüsselt</a>, kann die Nachrichten also nicht abfange. Sie machen aber Backups und können diese Lesen. Smartphones machen auch regelmäßig Backups und speichern damit auch Nachrichten unverschlüsselt auf den Servern. Google und Apple können also gegebenenfalls auch mitlesen.
 + www.justsecurity.org/79549/we-now-know-what-information-the-fbi-can-obtain-from-encrypted-messaging-apps/
 
 # Was ist ein "Cookie" im Internet?
@@ -115,7 +115,7 @@
 [Zur Verbesserung der Website-Geschwindigkeiten]
 [Zum Schutz vor unbekannten Sicherheitsverletzungen und Datenlecks]*
 [Zur Vermeidung von Spam-E-Mails]
-- Das Ändern von Passwörtern kann helfen, die Sicherheit zu erhöhen, besonders nach einer Sicherheitsverletzung oder einem Datenleck, bei dem Passwörter kompromittiert worden sein könnten.
+- Das Ändern von Passwörtern kann helfen, die Sicherheit zu erhöhen, besonders nach einer Sicherheitsverletzung oder einem Datenleck, bei dem Passwörter kompromittiert worden sein könnten, also dritte Kentnisse über die Passwörter erlangen.
 + www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Accountschutz/Sichere-Passwoerter-erstellen/Umgang-mit-Passwoertern/umgang-mit-passwoertern_node.html
 
 # Was ist eine Firewall?
@@ -175,7 +175,7 @@
 + www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Schadprogramme/Adware-und-Spyware/adware-und-spyware_node.html
 
 # Was ist der Hauptzweck von Incognito- bzw. Privatmodus in einem Webbrowser?
-[Das vollständige Verbergen der Online-Aktivitäten vor Webseiten und ISPs]
+[Das vollständige Verbergen der Online-Aktivitäten vor Webseiten und Internetanbieter]
 [Das Verhindern, dass der Browser Verlauf, Cookies und Site-Daten speichert]*
 [Das Beschleunigen der Internetgeschwindigkeit]
 [Das vollständige Schützen vor Malware und Viren]
@@ -187,7 +187,7 @@
 [Um die Passwörter regelmäßig aktualisieren zu können]
 [Um das Risiko zu minimieren, dass bei einem Datenleck mehrere Konten kompromittiert werden]*
 [Damit der Betreiber nicht an andere Konten kommt]
-- Die Verwendung eindeutiger Passwörter für verschiedene Konten minimiert das Risiko, dass bei einem Datenleck eines Dienstes auch andere Konten kompromittiert werden.
+- Die Verwendung eindeutiger Passwörter für verschiedene Konten minimiert das Risiko, dass bei einem Datenleck eines Dienstes auch andere Konten kompromittiert - also gehackt - werden.
 
 # Was ist ein Cookie-Banner und warum erscheint er auf Webseiten?
 [Ein Werbebanner, der mich mit Cookies trackt]
@@ -202,7 +202,7 @@
 [Ein sicherer Online-Chatdienst]
 [Ein Netzwerk aus mit Malware infizierten Geräten]*
 [Ein Online-Spiel]
-- Ein Botnet ist ein Netzwerk aus mit Malware infizierten Geräten (Bots), die ferngesteuert werden können, um Angriffe wie DDoS-Attacken durchzuführen oder Spam zu versenden.
+- Ein Botnet ist ein Netzwerk aus mit Malware infizierten Geräten (Bots), die ferngesteuert werden können, um Angriffe wie <a target="blank" href="https://www.myrasecurity.com/de/was-ist-ein-ddos-angriff/">DDoS-Attacken</a> durchzuführen oder Spam zu versenden.
 + www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/botnetze_node.html
 
 # Was bedeutet "Doxxing"?
