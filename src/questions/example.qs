@@ -11,7 +11,7 @@
 [Ja, die Nachrichten sind Ende zu Ende verschüsselt]
 [Ja, wenn es kein Backup gibt]*
 [Nein, Chats sind allgemein unsicher]
-- Whatsapp ist <a target="blank" href="https://faq.whatsapp.com/820124435853543/?locale=de_DE">Ende-zu-Ende verschlüsselt</a>, kann die Nachrichten also nicht abfange. Sie machen aber Backups und können diese Lesen. Smartphones machen auch regelmäßig Backups und speichern damit auch Nachrichten unverschlüsselt auf den Servern. Google und Apple können also gegebenenfalls auch mitlesen.
+- Whatsapp ist <a target="blank" href="https://faq.whatsapp.com/820124435853543/?locale=de_DE">Ende-zu-Ende verschlüsselt</a>, kann die Nachrichten also nicht abfangen. Sie machen aber Backups und können diese Lesen. Smartphones machen auch regelmäßig Backups und speichern damit auch Nachrichten unverschlüsselt auf den Servern. Google und Apple können also gegebenenfalls auch mitlesen.
 + www.justsecurity.org/79549/we-now-know-what-information-the-fbi-can-obtain-from-encrypted-messaging-apps/
 
 # Was ist ein "Cookie" im Internet?
