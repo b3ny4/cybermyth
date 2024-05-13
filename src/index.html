@@ -10,22 +10,60 @@
     <div class="container d-flex flex-end" id="game">
         <div class="card bg-glass">
             <div class="card-body">
-                <div class="d-flex justify-content-between">
-                    <div>
-                        <h1>Cyber Myths</h1>
-                        <p class="score">Score: <span id="score">-</span></p>
-                    </div>
-                    <div id="rank">
-                        <h2>Neuling</h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <div id="display">
-                            <h4><i>Please activate Javascript</i></h4>
+                <div id="welcome">
+                    <h1>Cyber Myths</h1>
+                    <h3>Bist du ein Rateritter oder doch ein Guru?</h3>
+                    <div class="d-flex">
+                        <div class="rank p-1">
+                            <img src="images/newcomer.png">
+                            <p>Neuling</p>
                         </div>
-                        <div id="feedback">
-                            Hier bekommst du feedback
+                        <div class="rank p-1">
+                            <img src="images/greenhorn.png">
+                            <p>Gr&uuml;nschnabel</p>
+                        </div>
+                        <div class="rank p-1">
+                            <img src="images/knight.png">
+                            <p>Rateritter</p>
+                        </div>
+                        <div class="rank p-1">
+                            <img src="images/king.png">
+                            <p>Ratek&ouml;nig</p>
+                        </div>
+                        <div class="rank p-1">
+                            <img src="images/master.png">
+                            <p>Quizmaster</p>
+                        </div>
+                        <div class="rank p-1">
+                            <img src="images/champion.png">
+                            <p>Champion</p>
+                        </div>
+                        <div class="rank p-1">
+                            <img src="images/guru.png">
+                            <p>Guru</p>
+                        </div>
+                    </div>
+                    <h3>Schaffst du es den geheimen Rang freizuschalten?</h3>
+                    <button class="btn btn-primary m-3" onclick="document.getElementById('gameboard').style.display='block';document.getElementById('welcome').style.display='none'">Teste dein K&ouml;nnen</button>
+                </div>
+                <div id="gameboard">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h1>Cyber Myths</h1>
+                            <p class="score">Score: <span id="score">-</span></p>
+                        </div>
+                        <div id="rank">
+                            <h2>Neuling</h2>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div id="display">
+                                <h4><i>Please activate Javascript</i></h4>
+                            </div>
+                            <div id="feedback">
+                                Hier bekommst du feedback
+                            </div>
                         </div>
                     </div>
                 </div>
